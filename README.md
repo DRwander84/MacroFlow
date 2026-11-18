@@ -16,8 +16,6 @@
 
 MacroFlow is organized into focused modules. The application layer starts the program and coordinates its main components; the core module handles recording and playback logic; Windows-specific code manages input hooks, global shortcuts and operating-system integration; and the UI module provides the desktop interface.
 
-## Project structure
-
 ## Build and package from source
 
 The repository includes a single packaging script that builds the application, deploys the required Qt runtime files, runs the configured tests, and produces both a portable ZIP and a Windows installer.
