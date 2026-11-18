@@ -18,24 +18,6 @@ MacroFlow is organized into focused modules. The application layer starts the pr
 
 ## Project structure
 
-```text
-MacroFlow/
-├── app/                 # Application entry point and lifecycle
-├── core/                # Macro events, recording, playback and controllers
-├── platform/windows/    # Windows input hooks, mouse input and system integration
-├── settings/            # Application settings and shortcut management
-├── storage/             # Local database and macro repository
-├── ui/                  # Main window, widgets, dialogs and visual state
-├── resources/            # Icons, stylesheets and Qt resources
-├── tests/                # Automated tests for core functionality
-├── docs/                 # Architecture and project documentation
-├── scripts/              # Build, Qt deployment and packaging scripts
-├── CMakeLists.txt
-├── LICENSE
-├── NOTICE
-└── README.md
-```
-
 ## Build and package from source
 
 The repository includes a single packaging script that builds the application, deploys the required Qt runtime files, runs the configured tests, and produces both a portable ZIP and a Windows installer.
@@ -63,26 +45,13 @@ Use the following toolchain for the current packaging scripts:
 .\scripts\package.bat -QtDir "C:\Path\To\Qt\6.12.0\msvc2022_64" -InnoDir "C:\Path\To\Inno Setup 6"
 ```
 
-`-QtDir` must point to the Qt kit directory that contains `bin\windeployqt.exe`.
-
-`-InnoDir` can point to the Inno Setup 6 installation directory or directly to `ISCC.exe`.
-
 Do not copy the example paths literally; use the actual installation paths on your machine. Run the command from the repository root.
 
-### Generated files
+## Donation
 
-After a successful run, the following files are created:
+If you would like to support me, you can send a donation to the following address:
 
-```text
-out/
-├── MacroFlow-Portable.zip
-├── portable/
-│   └── MacroFlow/          # Extracted portable application files
-└── setup/
-    └── MacroFlow-Setup.exe
-```
-
-The portable ZIP can be extracted to a folder and launched using `MacroFlow.exe`. The Setup executable installs the application using the installer configuration in `scripts/MacroFlow.iss`.
+`TMKpNvJ73RR6g2NQ3b18eAHZuXCkbiTUv7`
 
 ## License
 
