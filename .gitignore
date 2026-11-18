@@ -1,0 +1,32 @@
+# Build and packaging output
+/build/
+/out/
+/cmake-build-*/
+/CMakeFiles/
+/CMakeCache.txt
+/cmake_install.cmake
+/compile_commands.json
+/Testing/
+
+# Visual Studio
+/.vs/
+/*.sln
+/*.vcxproj
+/*.vcxproj.user
+/*.suo
+/*.zip
+/*.rar
+
+# Qt Creator and local IDE settings
+/CMakeLists.txt.user*
+/.qtcreator/
+/.qtc_clangd/
+*.user
+*.user.*
+
+# Temporary files and logs
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo

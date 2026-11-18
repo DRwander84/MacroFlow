@@ -1,0 +1,28 @@
+MacroFlow
+Copyright 2026 MacroFlow contributors
+
+This product includes or may be distributed with third-party runtime
+components. Those components are not relicensed under the Apache License
+2.0 by this NOTICE file. Their respective license terms continue to apply.
+
+Qt
+---
+MacroFlow is built with the Qt framework. The Windows packaging process
+uses Qt deployment tools to collect the Qt runtime components required by
+the application. Qt is developed by The Qt Company and contributors.
+
+Qt components and any bundled third-party libraries are subject to their
+own license terms and notices. Review the license files and notices
+distributed with the relevant Qt installation and runtime package, and
+refer to:
+https://www.qt.io/licensing
+
+Build and installer tools
+-------------------------
+CMake, Microsoft Visual Studio / MSVC, the Windows SDK, and Inno Setup are
+development or packaging tools. They are not part of MacroFlow's Apache-2.0
+licensed source code. Their respective trademarks and license terms remain
+with their owners.
+
+This file is provided for attribution and informational purposes. It does
+not replace or modify the licenses of third-party components.
