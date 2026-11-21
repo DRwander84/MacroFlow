@@ -45,10 +45,6 @@ Use the following toolchain for the current packaging scripts:
 
 Do not copy the example paths literally; use the actual installation paths on your machine. Run the command from the repository root.
 
-## Recommended Channel
-
-By visiting the [PC Gaming Hub](https://t.me/pcgaminghub) Telegram channel, you can follow the latest gaming and technology news.
-
 ## Donation
 
 If you would like to support me, you can send a donation to the following address:
